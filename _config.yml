@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language:
+title: Andrew Chan
+subtitle: Once Upon A Time, There Is An Andrew Chan.
+description: Personnal blogs
+keywords: Personal Blog
+author: Andrew Chan
+language: en
 timezone:
 
 # URL
@@ -73,7 +73,9 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+theme: next
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -81,3 +83,10 @@ deploy:
   type: git
   repository: https://github.com/AnandrewChan/AnandrewChan.github.io
   branch: master
+
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 100
